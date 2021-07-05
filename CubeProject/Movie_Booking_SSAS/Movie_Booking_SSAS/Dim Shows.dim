@@ -1,0 +1,789 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4afbc894-f80b-47bd-9103-d025d1198d60" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Shows</ID>
+  <Name>Dim Shows</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3186" scrolltop="-1151" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="17674" y="16431" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimTheater" left="6362" top="6395" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5530" height="8678" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00009a150000e6210000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimTheater" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimScreen" left="6838" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3519" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000bf0d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimScreen" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimMovie" left="-1223" top="8587" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="6085" height="8095" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000c51700009f1f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMovie" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DimShows" left="628" top="3276" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3334" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000060d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimShows" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6528" top="3695" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimScreen-DimTheater]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="0" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6927" y="6395" />
+              <point x="6927" y="5195" />
+              <point x="6947" y="5195" />
+              <point x="6947" y="3995" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3662" top="1598" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3476" height="4399" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimShows-DimScreen]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="20" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6838" y="1997" />
+              <point x="5400" y="1997" />
+              <point x="5400" y="5697" />
+              <point x="3962" y="5697" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="870" top="7818" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="1269" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DimShows-DimMovie]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="8" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1269" y="8587" />
+              <point x="1269" y="8353" />
+              <point x="1195" y="8353" />
+              <point x="1195" y="8118" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3186</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1151</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1223</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ef95330-0b9e-4d5a-a3ca-50d5179d2348">
+    <DataSourceViewID>Movie Booking DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="c1183588-1c40-498f-aeda-27f255d01bd4">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8685d6b5-e0c9-4884-84c5-b2e24ab56ed1">
+      <ID>Show SK</ID>
+      <Name>Show SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0203a300-7c5b-4f10-9b67-1e84fa5e452f">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="79ce3c6e-1c8c-495e-a5f4-20cad257e7f9">
+            <TableID>dbo_DimShows</TableID>
+            <ColumnID>ShowSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e0e06c45-34ab-426e-b2ae-c11844ecc6e4">
+          <AttributeID>Screen SK</AttributeID>
+          <Name>Screen SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="27f96f98-a6da-4743-b18a-f0ba42226a5c">
+          <AttributeID>Movie SK</AttributeID>
+          <Name>Movie SK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dd2857e1-06ac-4847-ae8c-6a36257b70fd">
+          <AttributeID>Show Alternate ID</AttributeID>
+          <Name>Show Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9f6f2fb4-fb7a-44e3-be8e-75aac37496e9">
+          <AttributeID>Show Date</AttributeID>
+          <Name>Show Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3eb7460e-76d4-4798-9d80-a46aaa57a5f1">
+          <AttributeID>Showtime</AttributeID>
+          <Name>Showtime</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="305b00cc-38a8-4399-b12c-18629730c3c9">
+          <AttributeID>Seats Available</AttributeID>
+          <Name>Seats Available</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1ffc54f2-91c7-48cd-8c75-a65d90f25367">
+          <AttributeID>Screen Alternate ID</AttributeID>
+          <Name>Screen Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6198b902-dc96-454a-ab83-80c1a71986cb">
+          <AttributeID>Screen Type</AttributeID>
+          <Name>Screen Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2cdfa5ef-e17d-43a8-8534-9a20cc3ca6eb">
+          <AttributeID>Seating Capacity</AttributeID>
+          <Name>Seating Capacity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e66bac70-e842-444e-81f8-496751bb1012">
+          <AttributeID>Theater Alternate ID</AttributeID>
+          <Name>Theater Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ab20ce47-78ce-45d0-95d9-5b7ea7fc4357">
+          <AttributeID>Theater Name</AttributeID>
+          <Name>Theater Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1eb8e19f-da18-4af1-a7d8-15a4f57b920a">
+          <AttributeID>Theater Parent Group</AttributeID>
+          <Name>Theater Parent Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0ee26d9b-21bd-4d00-9ae4-df92c8d6f07f">
+          <AttributeID>Theater Country</AttributeID>
+          <Name>Theater Country</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="faad5ece-f9d2-4bbd-8507-4118797fc90f">
+          <AttributeID>Theater State</AttributeID>
+          <Name>Theater State</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="37f68067-b46f-4ef0-907f-48cd23299913">
+          <AttributeID>Theater City</AttributeID>
+          <Name>Theater City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="45abd4c5-ff89-43d9-89c4-cce5c6a15f27">
+          <AttributeID>Theater Zipcode</AttributeID>
+          <Name>Theater Zipcode</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bd13f926-6b68-44d3-896e-7f365ca702f4">
+          <AttributeID>Theater Country Code</AttributeID>
+          <Name>Theater Country Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1aca6c1e-6044-4a33-aeae-8ca8a9b89a7c">
+          <AttributeID>Theater Contact Number</AttributeID>
+          <Name>Theater Contact Number</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c6f41d73-e121-462c-946f-3b698d6fb870">
+          <AttributeID>Movie Alternate ID</AttributeID>
+          <Name>Movie Alternate ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="92838f60-3bff-4a7b-b12e-17adfeb86d10">
+          <AttributeID>Movie Title</AttributeID>
+          <Name>Movie Title</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="364e17fc-f9b1-46e2-a611-98e54167261a">
+          <AttributeID>Movie Release Date</AttributeID>
+          <Name>Movie Release Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fd3d60ea-5dd3-4605-a2a7-6b1ceb9b2d3b">
+          <AttributeID>Movie Synopsis</AttributeID>
+          <Name>Movie Synopsis</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="242d7ab2-6488-480c-aacd-f34864302d70">
+          <AttributeID>Movie Rating</AttributeID>
+          <Name>Movie Rating</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9ee5e8bb-3f68-4607-932a-26ef4d447a53">
+          <AttributeID>Movie Runtime</AttributeID>
+          <Name>Movie Runtime</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5363500e-7bf7-4ad0-8ae2-0657724893d7">
+          <AttributeID>Movie Genre</AttributeID>
+          <Name>Movie Genre</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="722c5564-f568-4810-b0dc-e9abe593a750">
+          <AttributeID>Movie Cast ID</AttributeID>
+          <Name>Movie Cast ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8fea52c3-065f-4a61-a0a2-0b6a2eebefbe">
+          <AttributeID>Movie Actor</AttributeID>
+          <Name>Movie Actor</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6b08f8b7-768b-408c-915e-df083160ac89">
+          <AttributeID>Movie ID</AttributeID>
+          <Name>Movie ID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dd5ac0d5-d23e-4db2-878f-e185f56287a0">
+      <ID>Screen SK</ID>
+      <Name>Screen SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c5bb2a6c-8888-41fd-9c39-6efab9ebad8c">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ebfed8c4-8f62-4608-b2b2-5b214979c552">
+            <TableID>dbo_DimScreen</TableID>
+            <ColumnID>ScreenSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8aa364c4-52d9-4e4a-b545-c29cb908b53a">
+          <AttributeID>Theater SK</AttributeID>
+          <Name>Theater SK</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="df01f14e-16fb-4674-85f8-8b57bdbfaf76">
+      <ID>Theater SK</ID>
+      <Name>Theater SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c5734f6-2dca-4c23-9607-8f4b8ea6c0e7">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41ca3232-0a69-4fbc-b0bf-0680adc14b79">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>TheaterSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="62445e23-642e-407a-b6d3-fbbe2cc129e0">
+      <ID>Movie SK</ID>
+      <Name>Movie SK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fe7f19a-deea-42aa-8b00-424640da0218">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95382998-07ca-44a1-977f-922256d44c94">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>MovieSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f8c6d1c9-70b4-4ec8-acb8-84ac231c18d3">
+      <ID>Show Alternate ID</ID>
+      <Name>Show Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3190e703-e374-42c1-8f53-fcbca7dae3bb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5de32d06-20d5-4872-9a8c-3ade995615d0">
+            <TableID>dbo_DimShows</TableID>
+            <ColumnID>ShowAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11fc43d4-f32e-4710-97e3-b1fd3f511f0c">
+      <ID>Show Date</ID>
+      <Name>Show Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7b629d1e-c2fd-4cba-98e0-c6ab410b3419">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="91752060-cfb8-4fd5-889f-267736bf5479">
+            <TableID>dbo_DimShows</TableID>
+            <ColumnID>Show_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b4351c91-0a4d-4054-97b8-fb79cd086bfd">
+      <ID>Showtime</ID>
+      <Name>Showtime</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04bc58b6-1af2-4212-a1b1-2ed304a8960d">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a70a2cae-5645-4839-a447-3b1afc98df0d">
+            <TableID>dbo_DimShows</TableID>
+            <ColumnID>Showtime</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="221a4b5c-b8bb-4279-aab6-3ba4062bd870">
+      <ID>Seats Available</ID>
+      <Name>Seats Available</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0729e7fd-c800-491b-a84a-ee4e02fafd41">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="637492e7-b1fc-471c-bb57-c807306effb6">
+            <TableID>dbo_DimShows</TableID>
+            <ColumnID>Seats_Available</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="51a4624c-3161-45d4-91d8-57b70ddd306f">
+      <ID>Screen Alternate ID</ID>
+      <Name>Screen Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f6b830c3-526b-46dd-8238-f4d2bd4f149d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b888a3a-4ddf-41e7-9789-bb2ad6fa5921">
+            <TableID>dbo_DimScreen</TableID>
+            <ColumnID>ScreenAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="abedde7f-c824-4ac7-9aa3-201b7930045e">
+      <ID>Screen Type</ID>
+      <Name>Screen Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bda05029-c30c-4669-a956-4d9ee581a8b2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f10ef9f-2e33-421d-85a5-478a5d5bbf7f">
+            <TableID>dbo_DimScreen</TableID>
+            <ColumnID>Screen_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="159749b0-0dde-4686-8c8c-0ff751b7fe2e">
+      <ID>Seating Capacity</ID>
+      <Name>Seating Capacity</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="706f06b5-4056-4532-9f4e-2cced287e952">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e9605ac4-fb16-4b68-92e3-0690236a77d4">
+            <TableID>dbo_DimScreen</TableID>
+            <ColumnID>Seating_Capacity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="902d9561-cd62-4b34-9d80-d3944949cf35">
+      <ID>Theater Alternate ID</ID>
+      <Name>Theater Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf4f4537-7b78-4273-940e-eb297b3838d7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="34f978c6-02b4-49f9-a744-f9046a897191">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>TheaterAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7e11057a-9d1b-438d-87b9-33867f45225b">
+      <ID>Theater Name</ID>
+      <Name>Theater Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71806975-a1f2-4790-bb13-c92259857b36">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c09d026-fe10-45a3-be6f-104927be12ba">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4f7940b6-96c3-45a8-bdbd-c54a211ccf21">
+      <ID>Theater Parent Group</ID>
+      <Name>Theater Parent Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d4a06a20-7c8b-4f13-bf56-071e1ee2d9cd">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c80cc6fa-5d6e-4841-a6ee-3569af34db95">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_ParentGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="85920990-0a34-47a5-b64b-56e4b508aa19">
+      <ID>Theater Country</ID>
+      <Name>Theater Country</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="167c09fe-7869-4081-bb23-22e33dd90dae">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="01b52dbb-858f-4628-8ff9-09e8d8a75d5c">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_Country</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="882f14f1-3d4b-4399-a4cc-a9425a41b497">
+      <ID>Theater State</ID>
+      <Name>Theater State</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1bf6d0e6-d712-4f89-b8f2-471cc8c53d8a">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1d9534e-0c48-499a-a94a-fbedee3f47bc">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_State</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="830b5337-fbd9-4c69-9139-845f18e6ffad">
+      <ID>Theater City</ID>
+      <Name>Theater City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd9ffbe5-45fe-420a-958c-d0004d2cc489">
+          <DataType>WChar</DataType>
+          <DataSize>30</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0ddbb15e-5d4a-4925-a44a-1fb28b72886d">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_City</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2eadca25-fc5a-40c2-8b00-ce2c13452772">
+      <ID>Theater Zipcode</ID>
+      <Name>Theater Zipcode</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="49c3677d-18d3-409f-968a-1ba4efbdd5df">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="147c7602-403e-4f4b-8a3e-abf434bf5127">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_Zipcode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6e31c3ad-31f2-4314-a542-4727fec7fe16">
+      <ID>Theater Country Code</ID>
+      <Name>Theater Country Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="612a4faf-26ae-412a-82a7-6ccb760a4f72">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c3df0a3-084c-439f-9be6-6547775d084f">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_CountryCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c6a42114-24ce-4e00-abf4-8c8be3d8a0e9">
+      <ID>Theater Contact Number</ID>
+      <Name>Theater Contact Number</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="785ab387-ecb6-473a-9b7b-49afb27e486c">
+          <DataType>BigInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14cb101f-89e7-4986-a4a9-e3eadb45936f">
+            <TableID>dbo_DimTheater</TableID>
+            <ColumnID>Theater_Contact_Number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99e51a94-1fec-460c-b5ee-edb05acfd8d2">
+      <ID>Movie Alternate ID</ID>
+      <Name>Movie Alternate ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ef777b3d-a127-4f2d-ad8c-53ca21b0466a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29568427-373e-4bb0-b1c5-ab0243f3b4a5">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>MovieAlternateID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a26c7ab5-6ccf-4d3c-b1a6-f198defa535b">
+      <ID>Movie Title</ID>
+      <Name>Movie Title</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05a9c3b1-4636-4921-ba01-8169c48b75b2">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a1ad0d9e-c39d-4139-9dbb-b1415ee06f7e">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Title</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9e4276c9-7662-457a-ac53-565d624b0d29">
+      <ID>Movie Release Date</ID>
+      <Name>Movie Release Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="579e342a-b584-42ea-9077-cfa58b5fee97">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e5ca241-7c55-452e-9aef-4a4489927fdd">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Release_Date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d9db9c63-5dce-4c2f-b847-8b71d1e58698">
+      <ID>Movie Synopsis</ID>
+      <Name>Movie Synopsis</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a29834bb-f1cf-4c95-97e9-1cd5c5752fa8">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="700c586b-dd5c-46de-b6a6-d01912900a6c">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Synopsis</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b0be5f37-5752-47fd-a97b-893d4911bbde">
+      <ID>Movie Rating</ID>
+      <Name>Movie Rating</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="79becba8-e155-4aa8-8098-e3ccbeb21d95">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0b12fc4e-5843-4ba7-aa5f-db5940aaa0bc">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Rating</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d84ae58-978f-491a-bf3d-9e5390f21920">
+      <ID>Movie Runtime</ID>
+      <Name>Movie Runtime</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="18e92a9b-314a-43e6-85e9-585cfe6dea78">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5baebda1-8b4d-4a93-860d-1c0db3faf1df">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Runtime</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6913bfa5-c92d-46ad-8672-bdecae26b718">
+      <ID>Movie Genre</ID>
+      <Name>Movie Genre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f3b3250f-9059-444e-8d46-e46f4309cea1">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d70b1123-0904-4f6e-8cd2-b3752b35613b">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Genre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bff02702-5083-4925-8ea1-49e539b98c79">
+      <ID>Movie Cast ID</ID>
+      <Name>Movie Cast ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e5b9fa9c-cb08-4f48-800f-7e29cb7ba6ea">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f868284-8c0d-4f56-905b-85c1b675a60b">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>MovieCastID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a09a4aa4-021f-4d09-b96b-754cb8baa943">
+      <ID>Movie Actor</ID>
+      <Name>Movie Actor</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63c520f4-6a58-439a-928a-d6df3d5972de">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c26a5a6c-1fd1-4de8-beb3-2d026ffb02fb">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>Movie_Actor</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b6fc6e32-c4bc-4e94-8fbd-e77d4272d1d2">
+      <ID>Movie ID</ID>
+      <Name>Movie ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc5b6e1b-a3fe-4c51-acd7-bef3f2b29282">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c68ba82c-e4dc-4e67-9664-1a854807ee66">
+            <TableID>dbo_DimMovie</TableID>
+            <ColumnID>MovieID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="d8c743bc-4c2b-4b81-b8cb-40706bf43c9f">
+      <ID>Hierarchy</ID>
+      <Name>TheaterLocation_Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="2af01542-1903-4fa0-8ffd-e1728be4e1fd">
+          <ID>Theater Country</ID>
+          <Name>Theater Country</Name>
+          <SourceAttributeID>Theater Country</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f2352577-0806-4e67-b907-0280e16e1575">
+          <ID>Theater State</ID>
+          <Name>Theater State</Name>
+          <SourceAttributeID>Theater State</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8d18d672-5434-4b55-8ceb-5bea3fb56b5b">
+          <ID>Theater City</ID>
+          <Name>Theater City</Name>
+          <SourceAttributeID>Theater City</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
